@@ -39,6 +39,13 @@ namespace PracticeTask4
             get { return Imaginary; }
         }
 
+        public override string ToString()
+        {
+            if (Imaginary >= 0)
+            return Real + " + " + Imaginary + "i";
+            return Real + " " + Imaginary + "i";
+        }
+
         public static Complex operator +(Complex a, Complex b)
         {
             return new Complex(a.Re + b.Re, a.Im + b.Im);
