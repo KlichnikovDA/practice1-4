@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticeTask4
 {
-    class Program
+    class Interface
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
